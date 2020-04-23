@@ -1,0 +1,42 @@
+project:
+  title: crystalium
+  authors: []
+  description : ''
+  version: '0.0.1'
+  sources: ['src']
+  assets: ['assets']
+  defines: [no_debug_console, no_default_font]
+  shaders: [shaders]
+  libraries: ['clay_ui']
+
+input:
+  mouse: false
+  keyboard: true
+  gamepad: false
+  touch: false
+  pen: false
+
+app:
+  name: crystalium
+  
+html5:
+  webgl: true
+  canvas: 'kanvas'
+  script: 'game'
+  width: 960
+  height: 640
+  server_port: 8080
+  htmlFile: 'web/index.html'
+  favicon: ''
+  minify: false
+
+windows:
+  graphics: 'direct3d11'
+  
+compiler:
+  output: 'build'
+  parameters: ['-dce full']
+  options: ['']
+  haxe: ''
+  kha: ''
+  ffmpeg: ''
