@@ -1,4 +1,4 @@
-# LD 46
+# LD 46 Crystalium
 
 ![preview](preview.png)
 
